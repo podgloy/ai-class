@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* body {
+  @apply bg-gray-100 font-inter;
+} */
+input,
+select {
+  @apply border-gray-500/10 border-b bg-transparent px-1  py-4 text-blue-900;
+}
+
+button {
+  @apply !bg-red-200 text-blue-900 font-bold uppercase px-4 py-2 rounded font-sans;
+}
