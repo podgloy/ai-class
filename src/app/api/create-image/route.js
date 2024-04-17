@@ -30,7 +30,7 @@ export async function POST(req) {
 
   return Response.json({
     status: "ok",
-    answer: "output[0]"
+    answer: output[0]
   });
 
 
